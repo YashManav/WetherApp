@@ -3,7 +3,7 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/"
 };
 
-// Search input event
+
 const searchBox = document.querySelector('.search-box');
 searchBox.addEventListener('keypress', function (e) {
   if (e.key === 'Enter') {
